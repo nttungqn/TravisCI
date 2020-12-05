@@ -1,5 +1,8 @@
 const sum = require('./MyProject');
 
 function sumTest(){
-  expect(sum(1, 2)).toBe(3);
+  return sum(1, 2)
+  a = 10
 };
+
+console.log(sumTest());
