@@ -1,8 +1,6 @@
-const sum = require('./MyProject');
-
-function sumTest(){
-  return sum(1, 2)
-  a = 10
-};
-
-console.log(sumTest());
+var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello Travis!\n')  // Test fails here!
+}).listen(1337, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1337/');
