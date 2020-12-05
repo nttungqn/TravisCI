@@ -12,6 +12,9 @@
   ],
   "author": "TCV",
   "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
   "dependencies": {
     "tape": "^5.0.1"
   }
