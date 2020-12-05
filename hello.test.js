@@ -1,8 +1,7 @@
-const assert = require('assert');
+const tape = require('tape');
 const hello = require('./hello.js');
 
-const test = () => {
-  assert(hello() == 'Hello Travis CI', 'Module hello.js work not correct')
-};
-
-test();
+tape(function (test) {
+  test.equal(hello(), 'Hello Travis CIa');
+  test.end();
+});
