@@ -98,6 +98,28 @@ tape(function (test) {
 
 5. File `package.json`
 
-```javascript
-
+```json
+{
+	"name": "travisci",
+	"version": "1.0.0",
+	"description": "",
+	"main": "hello.js",
+	"dependencies": {
+		"tape": "^5.0.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "node hello.test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nttungqn/TravisCI.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nttungqn/TravisCI/issues"
+	},
+	"homepage": "https://github.com/nttungqn/TravisCI#readme"
+}
 ```
