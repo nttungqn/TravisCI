@@ -1,21 +1,23 @@
 {
-  "name": "cicd",
+  "name": "travisci",
   "version": "1.0.0",
   "description": "",
-  "main": "MyProject.js",
+  "main": "hello.js",
+  "dependencies": {
+    "tape": "^5.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "node hello.test.js"
   },
-  "keywords": [
-    "testing",
-    "test"
-  ],
-  "author": "TCV",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^26.6.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nttungqn/TravisCI.git"
   },
-  "dependencies": {
-    "tape": "^5.0.1"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nttungqn/TravisCI/issues"
+  },
+  "homepage": "https://github.com/nttungqn/TravisCI#readme"
 }
