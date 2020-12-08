@@ -1,5 +1,7 @@
 # Travis CI
 
+![img](https://images.viblo.asia/full/73bd7ca9-e22f-4d0d-9681-0ad219f748be.png)
+
 ## Các bước thực hiện
 
 1. Vào trang **Travis CI** với đường dẫn [https://travis-ci.org/]([Travis CI - Test and Deploy Your Code with Confidence](https://travis-ci.org/))
